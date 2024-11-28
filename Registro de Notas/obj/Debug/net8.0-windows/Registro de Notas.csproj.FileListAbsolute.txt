@@ -1,0 +1,17 @@
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.exe
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.deps.json
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.runtimeconfig.json
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.dll
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.pdb
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro_de_Notas.Form1.resources
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.csproj.GenerateResource.cache
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.AssemblyInfoInputs.cache
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.AssemblyInfo.cs
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.sourcelink.json
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.dll
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\refint\Registro de Notas.dll
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.pdb
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.genruntimeconfig.cache
+C:\Users\Aluno\Source\Repos\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\ref\Registro de Notas.dll
