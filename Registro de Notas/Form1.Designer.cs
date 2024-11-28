@@ -43,7 +43,7 @@
             textBox12 = new TextBox();
             textBox13 = new TextBox();
             textBox14 = new TextBox();
-            textBox15 = new TextBox();
+            textBox150 = new TextBox();
             textBox16 = new TextBox();
             textBox17 = new TextBox();
             textBox18 = new TextBox();
@@ -70,6 +70,9 @@
             textBox39 = new TextBox();
             textBox40 = new TextBox();
             textBox41 = new TextBox();
+            textBox15 = new TextBox();
+            textBox42 = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -78,6 +81,7 @@
             textBox1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.Location = new Point(217, 49);
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(159, 30);
             textBox1.TabIndex = 0;
             textBox1.Text = "1ºBimestre";
@@ -89,6 +93,7 @@
             textBox2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox2.Location = new Point(373, 49);
             textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
             textBox2.Size = new Size(159, 30);
             textBox2.TabIndex = 1;
             textBox2.Text = "2ºBimestre";
@@ -100,6 +105,7 @@
             textBox3.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox3.Location = new Point(528, 49);
             textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
             textBox3.Size = new Size(159, 30);
             textBox3.TabIndex = 2;
             textBox3.Text = "3ºBimestre";
@@ -111,6 +117,7 @@
             textBox4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox4.Location = new Point(684, 49);
             textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
             textBox4.Size = new Size(159, 30);
             textBox4.TabIndex = 3;
             textBox4.Text = "4ºBimestre";
@@ -122,6 +129,7 @@
             textBox5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox5.Location = new Point(839, 49);
             textBox5.Name = "textBox5";
+            textBox5.ReadOnly = true;
             textBox5.Size = new Size(159, 30);
             textBox5.TabIndex = 4;
             textBox5.Text = "Média Final";
@@ -143,6 +151,7 @@
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(159, 30);
             textBox7.TabIndex = 6;
+            textBox7.TextChanged += textBox7_TextChanged;
             // 
             // textBox8
             // 
@@ -151,6 +160,7 @@
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(159, 30);
             textBox8.TabIndex = 8;
+            textBox8.TextChanged += textBox8_TextChanged;
             // 
             // textBox9
             // 
@@ -159,6 +169,7 @@
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(159, 30);
             textBox9.TabIndex = 7;
+            textBox9.TextChanged += textBox9_TextChanged;
             // 
             // textBox10
             // 
@@ -167,6 +178,7 @@
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(159, 30);
             textBox10.TabIndex = 9;
+            textBox10.TextChanged += textBox10_TextChanged;
             // 
             // textBox11
             // 
@@ -175,6 +187,7 @@
             textBox11.Name = "textBox11";
             textBox11.Size = new Size(159, 30);
             textBox11.TabIndex = 14;
+            textBox11.TextChanged += textBox11_TextChanged;
             // 
             // textBox12
             // 
@@ -183,6 +196,7 @@
             textBox12.Name = "textBox12";
             textBox12.Size = new Size(159, 30);
             textBox12.TabIndex = 13;
+            textBox12.TextChanged += textBox12_TextChanged;
             // 
             // textBox13
             // 
@@ -191,6 +205,7 @@
             textBox13.Name = "textBox13";
             textBox13.Size = new Size(159, 30);
             textBox13.TabIndex = 12;
+            textBox13.TextChanged += textBox13_TextChanged;
             // 
             // textBox14
             // 
@@ -199,14 +214,16 @@
             textBox14.Name = "textBox14";
             textBox14.Size = new Size(159, 30);
             textBox14.TabIndex = 11;
+            textBox14.TextChanged += textBox14_TextChanged;
             // 
-            // textBox15
+            // textBox150
             // 
-            textBox15.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox15.Location = new Point(373, 79);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(159, 30);
-            textBox15.TabIndex = 10;
+            textBox150.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox150.Location = new Point(373, 79);
+            textBox150.Name = "textBox150";
+            textBox150.Size = new Size(159, 30);
+            textBox150.TabIndex = 10;
+            textBox150.TextChanged += textBox15_TextChanged;
             // 
             // textBox16
             // 
@@ -215,6 +232,7 @@
             textBox16.Name = "textBox16";
             textBox16.Size = new Size(159, 30);
             textBox16.TabIndex = 24;
+            textBox16.TextChanged += textBox16_TextChanged;
             // 
             // textBox17
             // 
@@ -223,6 +241,7 @@
             textBox17.Name = "textBox17";
             textBox17.Size = new Size(159, 30);
             textBox17.TabIndex = 23;
+            textBox17.TextChanged += textBox17_TextChanged;
             // 
             // textBox18
             // 
@@ -231,6 +250,7 @@
             textBox18.Name = "textBox18";
             textBox18.Size = new Size(159, 30);
             textBox18.TabIndex = 22;
+            textBox18.TextChanged += textBox18_TextChanged;
             // 
             // textBox19
             // 
@@ -239,6 +259,7 @@
             textBox19.Name = "textBox19";
             textBox19.Size = new Size(159, 30);
             textBox19.TabIndex = 21;
+            textBox19.TextChanged += textBox19_TextChanged;
             // 
             // textBox20
             // 
@@ -247,6 +268,7 @@
             textBox20.Name = "textBox20";
             textBox20.Size = new Size(159, 30);
             textBox20.TabIndex = 20;
+            textBox20.TextChanged += textBox20_TextChanged;
             // 
             // textBox21
             // 
@@ -255,6 +277,7 @@
             textBox21.Name = "textBox21";
             textBox21.Size = new Size(159, 30);
             textBox21.TabIndex = 19;
+            textBox21.TextChanged += textBox21_TextChanged;
             // 
             // textBox22
             // 
@@ -263,6 +286,7 @@
             textBox22.Name = "textBox22";
             textBox22.Size = new Size(159, 30);
             textBox22.TabIndex = 18;
+            textBox22.TextChanged += textBox22_TextChanged;
             // 
             // textBox23
             // 
@@ -271,6 +295,7 @@
             textBox23.Name = "textBox23";
             textBox23.Size = new Size(159, 30);
             textBox23.TabIndex = 17;
+            textBox23.TextChanged += textBox23_TextChanged;
             // 
             // textBox24
             // 
@@ -279,6 +304,7 @@
             textBox24.Name = "textBox24";
             textBox24.Size = new Size(159, 30);
             textBox24.TabIndex = 16;
+            textBox24.TextChanged += textBox24_TextChanged;
             // 
             // textBox25
             // 
@@ -287,6 +313,7 @@
             textBox25.Name = "textBox25";
             textBox25.Size = new Size(159, 30);
             textBox25.TabIndex = 15;
+            textBox25.TextChanged += textBox25_TextChanged;
             // 
             // textBox26
             // 
@@ -295,6 +322,7 @@
             textBox26.Name = "textBox26";
             textBox26.Size = new Size(159, 30);
             textBox26.TabIndex = 29;
+            textBox26.TextChanged += textBox26_TextChanged;
             // 
             // textBox27
             // 
@@ -303,6 +331,7 @@
             textBox27.Name = "textBox27";
             textBox27.Size = new Size(159, 30);
             textBox27.TabIndex = 28;
+            textBox27.TextChanged += textBox27_TextChanged;
             // 
             // textBox28
             // 
@@ -311,6 +340,7 @@
             textBox28.Name = "textBox28";
             textBox28.Size = new Size(159, 30);
             textBox28.TabIndex = 27;
+            textBox28.TextChanged += textBox28_TextChanged;
             // 
             // textBox29
             // 
@@ -319,6 +349,7 @@
             textBox29.Name = "textBox29";
             textBox29.Size = new Size(159, 30);
             textBox29.TabIndex = 26;
+            textBox29.TextChanged += textBox29_TextChanged;
             // 
             // textBox30
             // 
@@ -335,6 +366,7 @@
             textBox31.Font = new Font("Arial", 10.8F, FontStyle.Bold);
             textBox31.Location = new Point(61, 79);
             textBox31.Name = "textBox31";
+            textBox31.ReadOnly = true;
             textBox31.Size = new Size(159, 28);
             textBox31.TabIndex = 30;
             textBox31.Text = "Matemática";
@@ -346,6 +378,7 @@
             textBox32.Font = new Font("Arial", 10.8F, FontStyle.Bold);
             textBox32.Location = new Point(61, 105);
             textBox32.Name = "textBox32";
+            textBox32.ReadOnly = true;
             textBox32.Size = new Size(159, 28);
             textBox32.TabIndex = 31;
             textBox32.Text = "Geografia";
@@ -357,6 +390,7 @@
             textBox33.Font = new Font("Arial", 10.8F, FontStyle.Bold);
             textBox33.Location = new Point(61, 155);
             textBox33.Name = "textBox33";
+            textBox33.ReadOnly = true;
             textBox33.Size = new Size(159, 28);
             textBox33.TabIndex = 33;
             textBox33.Text = "Trigonometria";
@@ -368,6 +402,7 @@
             textBox34.Font = new Font("Arial", 10.8F, FontStyle.Bold);
             textBox34.Location = new Point(61, 129);
             textBox34.Name = "textBox34";
+            textBox34.ReadOnly = true;
             textBox34.Size = new Size(159, 28);
             textBox34.TabIndex = 32;
             textBox34.Text = "Física";
@@ -379,6 +414,7 @@
             textBox35.Font = new Font("Arial", 10.8F, FontStyle.Bold);
             textBox35.Location = new Point(61, 179);
             textBox35.Name = "textBox35";
+            textBox35.ReadOnly = true;
             textBox35.Size = new Size(159, 28);
             textBox35.TabIndex = 34;
             textBox35.Text = "Química";
@@ -390,6 +426,7 @@
             textBox36.Font = new Font("Arial", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox36.Location = new Point(1054, 49);
             textBox36.Name = "textBox36";
+            textBox36.ReadOnly = true;
             textBox36.Size = new Size(159, 39);
             textBox36.TabIndex = 35;
             textBox36.Text = "Nome:";
@@ -419,6 +456,7 @@
             textBox39.Font = new Font("Arial", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox39.Location = new Point(1054, 149);
             textBox39.Name = "textBox39";
+            textBox39.ReadOnly = true;
             textBox39.Size = new Size(159, 39);
             textBox39.TabIndex = 37;
             textBox39.Text = "Série:";
@@ -440,16 +478,53 @@
             textBox41.Font = new Font("Arial", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox41.Location = new Point(1054, 251);
             textBox41.Name = "textBox41";
+            textBox41.ReadOnly = true;
             textBox41.Size = new Size(159, 39);
             textBox41.TabIndex = 39;
             textBox41.Text = "Instituição:";
             textBox41.TextAlign = HorizontalAlignment.Center;
+            // 
+            // textBox15
+            // 
+            textBox15.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox15.Location = new Point(537, 307);
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(159, 30);
+            textBox15.TabIndex = 41;
+            textBox15.TextChanged += textBox15_TextChanged_1;
+            // 
+            // textBox42
+            // 
+            textBox42.BackColor = SystemColors.Highlight;
+            textBox42.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox42.Location = new Point(537, 271);
+            textBox42.Name = "textBox42";
+            textBox42.ReadOnly = true;
+            textBox42.Size = new Size(159, 30);
+            textBox42.TabIndex = 42;
+            textBox42.Text = "Média GERAL";
+            textBox42.TextAlign = HorizontalAlignment.Center;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Lime;
+            button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(103, 323);
+            button1.Name = "button1";
+            button1.Size = new Size(156, 69);
+            button1.TabIndex = 43;
+            button1.Text = "enviar ao aluno";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1359, 713);
+            Controls.Add(button1);
+            Controls.Add(textBox42);
+            Controls.Add(textBox15);
             Controls.Add(textBox40);
             Controls.Add(textBox41);
             Controls.Add(textBox38);
@@ -480,7 +555,7 @@
             Controls.Add(textBox12);
             Controls.Add(textBox13);
             Controls.Add(textBox14);
-            Controls.Add(textBox15);
+            Controls.Add(textBox150);
             Controls.Add(textBox10);
             Controls.Add(textBox8);
             Controls.Add(textBox9);
@@ -514,7 +589,6 @@
         private TextBox textBox12;
         private TextBox textBox13;
         private TextBox textBox14;
-        private TextBox textBox15;
         private TextBox textBox16;
         private TextBox textBox17;
         private TextBox textBox18;
@@ -541,5 +615,9 @@
         private TextBox textBox39;
         private TextBox textBox40;
         private TextBox textBox41;
+        private TextBox textBox150;
+        private TextBox textBox15;
+        private TextBox textBox42;
+        private Button button1;
     }
 }
