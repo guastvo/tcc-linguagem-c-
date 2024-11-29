@@ -1,0 +1,17 @@
+C:\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.exe
+C:\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.deps.json
+C:\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.runtimeconfig.json
+C:\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.dll
+C:\tcc-linguagem-c-\Registro de Notas\bin\Debug\net8.0-windows\Registro de Notas.pdb
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro_de_Notas.Form1.resources
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.csproj.GenerateResource.cache
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.GeneratedMSBuildEditorConfig.editorconfig
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.AssemblyInfoInputs.cache
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.AssemblyInfo.cs
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.csproj.CoreCompileInputs.cache
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.sourcelink.json
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.dll
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\refint\Registro de Notas.dll
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.pdb
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\Registro de Notas.genruntimeconfig.cache
+C:\tcc-linguagem-c-\Registro de Notas\obj\Debug\net8.0-windows\ref\Registro de Notas.dll
