@@ -222,7 +222,7 @@ namespace Registro_de_Notas
 
 
             // Calculando a média
-            double media = (valor1 + valor2 + valor3 + valor4 + valor5) / 4;
+            double media = (valor1 + valor2 + valor3 + valor4 + valor5) / 5;
 
             // Exibindo o resultado no Label ou TextBox
             textBox15.Text = media.ToString();
@@ -231,6 +231,41 @@ namespace Registro_de_Notas
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(textBox37.Text + ", Série: " + textBox38.Text + ", Instituição: " + textBox40.Text + ", Sua média geral foi " + textBox15.Text);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox37_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

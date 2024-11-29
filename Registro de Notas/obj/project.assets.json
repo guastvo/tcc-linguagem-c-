@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\tcc-linguagem-c-\\Registro de Notas\\Registro de Notas.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\tcc-linguagem-c-\\Registro de Notas\\Registro de Notas.csproj",
       "projectName": "Registro de Notas",
-      "projectPath": "C:\\tcc-linguagem-c-\\Registro de Notas\\Registro de Notas.csproj",
+      "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\tcc-linguagem-c-\\Registro de Notas\\Registro de Notas.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\tcc-linguagem-c-\\Registro de Notas\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\tcc-linguagem-c-\\Registro de Notas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
